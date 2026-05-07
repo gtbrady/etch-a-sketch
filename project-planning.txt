@@ -1,0 +1,15 @@
+Requirements
+- 16x16 grid of square divs (initially)
+--- create the divs with JS
+--- nest them inside a container div (this can be created in HTML)
+--- Use Flexbox (not Grid)
+- Hover effect
+--- grid divs change color when the mouse passes over them
+- Add button to control grid size
+--- Prompts user for # of squares per side
+--- Limit input to 100 or less
+--- Once entered, existing grid is replaced. It should take up same total pixels as original grid
+
+Extra Credit
+1. Randomize the square color with each interaction
+2. Progressive darkening effect, where each interaction darkens the square by 10%
