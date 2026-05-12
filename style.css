@@ -1,0 +1,11 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+}
