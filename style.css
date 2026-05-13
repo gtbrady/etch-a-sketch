@@ -6,16 +6,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: lightgray;
 }
 
 #container {
-    height: 500px;
-    width: 500px;
+    height: 512px;
+    width: 512px;
     border: 1px solid black;
     display:flex;
     flex-wrap: wrap;
 }
 
 .grid-item {
-    border: 1px solid red;
+    background-color:#FAF9F6;
 }
