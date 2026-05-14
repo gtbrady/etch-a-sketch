@@ -9,11 +9,17 @@ function createGrid(integer) {
         div.classList.add("grid-item");
         div.style.height = `${gridSize/integer}px`;
         div.style.width = `${gridSize/integer}px`;
+        /*
+        I think for the extra credit I can pass a different
+        event listener function depending on the "mode". Random
+        color or Opacity
+        */
+        div.addEventListener("mouseenter", ()=> {
+            div.style.backgroundColor = "black";
+        });
         container.appendChild(div);
         }
     }   
 }
-
-
 
 createGrid(16);
