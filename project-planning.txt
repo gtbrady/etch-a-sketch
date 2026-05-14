@@ -23,4 +23,6 @@ Need to hard code the grid size in pixels.
 Setup the hover effect so the grid changes colors when you hover the mouse
 add button to top of screen, event handler prompts user for an integer from 1 - 100
 creates a new square grid based off the user input
-then tackle extra credit
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+then tackle extra credit (I will circle back to add extra credit features later)
